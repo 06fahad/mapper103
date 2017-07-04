@@ -1,4 +1,2 @@
 # mapper103
-A mapping software
-
-m1, m2 and m3 all correspond to milestones for the project (m1=milestone1). m1 contains code for initial set up of essential data structures and helper functions. m2 contains all code for the user interface. m3 contains code for additions to user interface and shortest path finding algorithms for the map.
+A mapping software which uses OpenStreetMap's API to extract data and uses the data to create a Graphical Information System software. Shortest path finding algorithms such as Djikstra's algorithm and A\* algorithm are also implemented to facilitate routing. A slightly altered version of the Travelling Salesman Problem is also addressed, where the objective is to find a shortest possible path for a delivery service where the delivery truck must pick up a package before it can visit a dropoff location, thus putting additional constraints on the traditional TSP. Algorithms such as greedy search, 2-opt swap are implemented to meet this objective. 
